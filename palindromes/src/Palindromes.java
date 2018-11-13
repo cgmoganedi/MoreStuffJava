@@ -24,7 +24,7 @@ public class Palindromes {
 
     public static void main(String [] args){
 
-        System.out.println("Enter a word: ");
+        System.out.println("Enter a word or 'exit' exit: ");
         Scanner scan =  new Scanner(System.in);
         String word = scan.nextLine().trim();
 
